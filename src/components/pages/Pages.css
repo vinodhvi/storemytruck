@@ -1,0 +1,293 @@
+.bg-layer{
+    background: url(./../images/sub.jpg) 0 0 no-repeat;
+    background-size: cover;
+}
+.group-map h3{
+  padding: 0 0 20px 0;
+}
+
+.page-title{
+    position: relative;
+    padding: 186px 0px 193px 0px;
+  }
+  
+  .page-title .bg-layer{
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+  
+  .page-title .bg-layer:before {
+    position: absolute;
+    content: '';
+    width: 100%;
+    height: 100%;
+    background: -webkit-linear-gradient(-90deg, rgba(0,0,0,0.6) 0%, rgba(0,0,0,0.0) 50%);
+    bottom: 0px;
+    right: 0px;
+  }
+  .content-box{
+    text-align: center;
+  }
+  .page-title h1 {
+    display: block;
+    font-size: 72px;
+    line-height: 82px;
+    color: #fff;
+    font-weight: 700;
+    margin-bottom: 9px;
+    position: relative;
+}
+  
+  .page-title .bread-crumb li{
+    position: relative;
+    display: inline-block;
+    font-size: 18px;
+    line-height: 28px;
+    font-family: 'Monda', sans-serif;
+    font-weight: 700;
+    color: #fff;
+    margin-right: 12px;
+  }
+  
+  .page-title .bread-crumb li a{
+    display: inline-block;
+    color: #fff;
+  }
+  
+  
+  
+  .page-title .bread-crumb li:before{
+    position: absolute;
+    content: '';
+    width: 2px;
+    height: 2px;
+    right: -10px;
+    bottom: 7px;
+  }
+  
+  .page-title .bread-crumb li:last-child:before{
+    display: none;
+  }
+  
+  .page-title .line-box .line-1,
+  .page-title .line-box .line-2{
+    position: absolute;
+    top: 0px;
+    width: 1px;
+    height: 100%;
+    background: #fff;
+    opacity: 0.15;
+    z-index: 2;
+  }
+  
+  .page-title .line-box .line-1{
+    left: 481px;
+  }
+  
+  .page-title .line-box .line-2{
+    right: 513px;
+  }
+  .content-section{
+    padding: 80px 0;
+  }
+  .content-section iframe{
+    height:400px;
+  }
+  .content-section .tabs .MuiBox-root {
+    flex-direction: column;
+    height: auto;
+}
+.cus-map-address {
+  position: unset !important;
+  padding: 30px 10px;
+  background: unset;
+}
+.content-section .MuiTabs-flexContainer {
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.tabs-names .MuiTabs-root {
+  padding-top: 0 !important;
+}
+.tabs-names {
+  width: 100%;
+}
+.tab-contents {
+  width: calc(100% - 40%);
+  margin: 0 auto;
+}
+.tabs-names .MuiButtonBase-root {
+  padding: 60px 29px;
+  border: 1px solid #ededed;
+ 
+}
+.cus-map-address iframe {
+  height: 250px !important;
+  display: block;
+}
+.tab-contents {
+  background-color: unset;
+}
+.cus-map-address p {
+  padding: 10px 0 15px 0;
+}
+.location-details {
+  background-color: #fff;
+  padding: 30px 25px;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  border-bottom-left-radius: 8px;
+  border-bottom-right-radius: 8px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.location-details h3 {
+  font-size: 20px;
+  line-height: 25px;
+}
+.location-details p {
+  font-size: 16px;
+ 
+}
+.tab-contents .MuiBox-root{
+  padding: 0;
+}
+
+/*  */
+.row-height {
+  height: 100%;
+  min-height: 100%;
+}
+.content-left {
+  height: 100%;
+  min-height: 100%;
+  overflow-x: hidden;
+  overflow-y: scroll;
+  padding-top: 35px;
+}
+.map-right {
+  height: 100%;
+  min-height: 100%;
+  padding: 0;
+}
+.map-right iframe {
+
+  height: 100%;
+  position: fixed;
+}
+.full-height {
+  height: 100%;
+}
+.location-address{
+  width: 100%;
+}
+.cus-map-loc{
+  padding: 0 200px 0 200px;
+}
+.tourmaster-tour-category-thumbnail  img{
+  width: 100%;
+}
+.tourmaster-tour-category-grid.tourmaster-with-thumbnail .tourmaster-tour-category-item-wrap {
+  position: relative;
+  overflow: hidden;
+}
+.tourmaster-media-image {
+  line-height: 0;
+  position: relative;
+}
+.tourmaster-tour-category-grid.tourmaster-with-thumbnail .tourmaster-tour-category-overlay {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background: #000;
+}
+.tourmaster-tour-category-grid.tourmaster-with-thumbnail .tourmaster-tour-category-overlay {
+  opacity: 0;
+  filter: alpha(opacity=0);
+  transition: opacity 300ms;
+  -moz-transition: opacity 300ms;
+  -o-transition: opacity 300ms;
+  -webkit-transition: opacity 300ms;
+}
+.tourmaster-tour-category-grid.tourmaster-with-thumbnail .tourmaster-tour-category-overlay-front {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+
+}
+.tourmaster-tour-category-grid.tourmaster-with-thumbnail .tourmaster-tour-category-head {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+.tourmaster-tour-category-grid .tourmaster-tour-category-head-display {
+  padding: 0 25px 10px;
+}
+.tourmaster-tour-category-grid .tourmaster-tour-category-head-animate {
+  padding: 0 25px 27px;
+  position: relative;
+}
+.tourmaster-tour-category-grid.tourmaster-with-thumbnail .tourmaster-tour-category-head-animate {
+  margin-bottom: -49px;
+  transition: margin 200ms ease-out;
+  -moz-transition: margin 200ms ease-out;
+  -o-transition: margin 200ms ease-out;
+  -webkit-transition: margin 200ms ease-out;
+}
+.tourmaster-tour-category-grid.tourmaster-with-thumbnail:hover .tourmaster-tour-category-overlay {
+  opacity: .65;
+  filter: alpha(opacity=65);
+}
+.tourmaster-tour-category-grid.tourmaster-with-thumbnail:hover .tourmaster-tour-category-head-display {
+  padding-bottom: 10px;
+}
+.tourmaster-tour-category-grid.tourmaster-with-thumbnail:hover .tourmaster-tour-category-head-animate {
+  margin-bottom: 0;
+}
+.tourmaster-tour-category-grid .tourmaster-tour-category-head-link {
+  font-size: 12px;
+  text-transform: uppercase;
+  font-weight: 800;
+}
+.tourmaster-tour-category-grid.tourmaster-with-thumbnail .tourmaster-tour-category-head-divider, .tourmaster-tour-category-grid-2.tourmaster-with-thumbnail .tourmaster-tour-category-head-divider {
+  border-color: #FF0000;
+}
+.tourmaster-tour-category-head-link{
+  color: #FF0000;;
+}
+.tourmaster-tour-category-grid.tourmaster-with-thumbnail .tourmaster-tour-category-head-divider {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  border-bottom-width: 5px;
+  border-bottom-style: solid;
+}
+.tourmaster-tour-category-title {
+  color: #fff;
+  float: left;
+  font-size: 18px;
+}
+.tourmaster-tour-category-grid .tourmaster-tour-category-count {
+  float: right;
+  margin-top: 2px;
+  color: #fff;
+}
+.tourmaster-tour-category-title i{
+  padding-right: 10px;
+}
+.cus-map-loc .col-xl-4{
+  margin-bottom: 20px;
+}

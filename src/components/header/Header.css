@@ -1,0 +1,19 @@
+.header-top{
+    background-color: #18171A;
+    padding: 20px 0;
+}
+.top-header a{
+    color: #fff;
+}
+.top-header :nth-child(2){
+    text-align: end;
+}
+.sticky-nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 9;
+    background: #fff;
+  }
+  
